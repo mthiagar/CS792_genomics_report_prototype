@@ -89,61 +89,42 @@
 
         <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-3">
           <div class="container" id="info">
-            <div class="container-fluid" id="patient_info">
-              <h1>Welcome Dr. J. M. Hibbert</h1>
-              <h2>Patient Information</h2>
-              <p><strong>Last Name:</strong> Krabappel</p>
-              <p><strong>First Name:</strong> Edna</p>
-              <p><strong>DOB:</strong> 1970-01-01</p>
-              <p><strong>Sex:</strong> Female</p>
-              <p><strong>Health Card Number:</strong> KSD-965</p>
-              <p><strong>Phone:</strong> 647-897-9902</p>
-              <p><strong>e-mail:</strong> Edna.K@gmail.com</p>
+            <div class="container" id="patient_info">
+              <h1>Welcome Dr. ___________</h1>
+              <h2>Test Information</h2>
+              <p><strong>Panel Name:</strong> Illumina Trusight Myeloid Panel</p>
+              <p><strong>Genes Tested:</strong>  <img src="assets/Screenshot from 2019-04-02 20-07-38.png">
+              <p><strong>Panel Information</strong><a href="https://support.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/trusight-tumor-170-data-sheet-1170-2016-017.pdf"> TrusSight Tumor 170 Product Sheet</a></p>
+              <p><strong>Analysis Method:</strong> Illumina Trusight pipeline v. 1 on basespace</p>
             </div>
 
+       <h2>Patient Information</h2>
+              <p><strong>Last Name:</strong> Doe</p>
+              <p><strong>First Name:</strong> Jane</p>
+              <p><strong>DOB:</strong> 1990-07-02</p>
+              <p><strong>Health Card Number:</strong> 236-123-257-AB</p>
+
             <div class="container-fluid" id="physician_info">
-              <h1> . </h1>
-              <h2>Primary Physician</h2> 
-              <p><strong>Name:</strong> Dr. J. M. Hibbert </p>
-              <p><strong>Address:</strong> Springfield General <br>734 Evergreen Terrace<br> Springfield, 90210</p>
-              <p><strong>Phone #:</strong> 647-900-9076 </p>
-              <p><strong>e-mail:</strong>jm.hibbert@springfieldgeneral.com</p>
+              <h2>Status</h2> 
+              <p><strong>Run QC:</strong> PASS </p>
+              <p><strong>Failed Regions:</strong> CBL</p>
             </div>
           </div>
 
-          <section class="row text-center placeholders">
-            <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <h4>Genomics</h4>
-              <div class="text-muted">Something else</div>
-            </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <h4>Radiology</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAAJ12AAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <h4>Pathology</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-            <div class="col-6 col-sm-3 placeholder">
-              <img src="data:image/gif;base64,R0lGODlhAQABAIABAADcgwAAACwAAAAAAQABAAACAkQBADs=" width="200" height="200" class="img-fluid rounded-circle" alt="Generic placeholder thumbnail">
-              <h4>Medications</h4>
-              <span class="text-muted">Something else</span>
-            </div>
-          </section>
+   
 
-          <h2>Activity History</h2>
+  
           <div class="table-responsive">
+            <h2>Variants Detected</h2>
             <table class="table table-striped">
               <thead>
                 <tr>
-                  <th>Date</th>
-                  <th>Title</th>
-                  <th>Description</th>
-                  <th>Results/File</th>
-                  <th>Comments</th>
+                  <th>Variant</th>
+                  <th>cDNA</th>
+                  <th>Protein</th>
+                  <th>Allele Frequency</th>
+                  <th>Classification</th>
+                  <th>IGV + Annotation</th>
                 </tr>
               </thead>
               <tbody>
@@ -173,14 +154,14 @@
                   <td>Clinical Trial</td>
                   <td>Enrolled in Clinical trial</td>
                   <td></td>
-                  <td>Trastuzumab</td>
+                  <td>Newdruginab</td>
                 </tr>
                 <tr>
                   <td>2019-03-17</td>
                   <td>Test Results</td>
-                  <td>170 Gene Panel Ordereds</td>
-                  <td><a href="panel_test_result.html">Illumina TruSight 170 Gene Panel</td>
-                  <td>Actionable mutations detected.</td>
+                  <td>Whole exomes</td>
+                  <td>ADD A FILE HERE</td>
+                  <td>Several Actional Results</td>
                 </tr>
                 <tr>
                   <td>2019-03-09</td>
@@ -199,16 +180,16 @@
                 <tr>
                   <td>2019-03-01</td>
                   <td>Genomic Testing</td>
-                  <td>Breast Cancer Panel</td>
-                  <td><a href="assets/cancer.pdf">9 Gene Breast Cancer Panel</td>
-                  <td>Pathogenic mutation detected</td>
+                  <td>Illumina 50 Gene Myeloid Panel</td>
+                  <td>ADD A FILE HERE</td>
+                  <td>Results show some actionable mutations</td>
                 </tr>
                 <tr>
                   <td>2019-03-01</td>
                   <td>Specialist Visit</td>
                   <td>Oncologist</td>
                   <td></td>
-                  <td>Genetic, Breast Cancer panel ordered</td>
+                  <td>Genetic, blood panel ordered</td>
                 </tr>
                 <tr>
                   <td>2019-02-26</td>
